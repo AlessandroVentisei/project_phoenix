@@ -20,46 +20,6 @@ class Explore extends StatelessWidget {
           ],
         ),
       )),
-      // bottomNavigationBar: BottomNavigationBar(
-      //   items: <BottomNavigationBarItem>[
-      //     const BottomNavigationBarItem(
-      //       icon: Icon(
-      //         Icons.favorite_outline,
-      //         color: Colors.black,
-      //       ),
-      //       label: 'Wishlists',
-      //     ),
-      //     const BottomNavigationBarItem(
-      //       icon: Icon(
-      //         Icons.search,
-      //         color: Colors.red,
-      //       ),
-      //       label: 'Explore',
-      //     ),
-      //     BottomNavigationBarItem(
-      //       icon: Image.asset(
-      //         'assets/images/airbnb.png',
-      //         height: 20,
-      //       ),
-      //       label: 'Trips',
-      //     ),
-      //     BottomNavigationBarItem(
-      //       icon: Image.asset(
-      //         'assets/images/chat.png',
-      //         height: 20,
-      //       ),
-      //       label: 'Inbox',
-      //     ),
-      //     BottomNavigationBarItem(
-      //       icon: Image.asset(
-      //         'assets/images/user-2.png',
-      //         height: 20,
-      //       ),
-      //       label: 'Profile',
-      //     )
-      //   ],
-      // ),
-
       bottomNavigationBar: SizedBox(
         height: 91,
         child: BottomAppBar(
